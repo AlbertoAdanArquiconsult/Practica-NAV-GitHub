@@ -3,11 +3,7 @@ OBJECT Table 3 Payment Terms
   OBJECT-PROPERTIES
   {
     Date=16/03/18;
-<<<<<<< HEAD
-    Time=10:00:53;
-=======
-    Time=09:32:06;
->>>>>>> parent of 66783cc... Paso2b
+    Time=10:41:29;
     Modified=Yes;
     Version List=NAVW19.00,NAVES9.00;
   }
@@ -60,12 +56,6 @@ OBJECT Table 3 Payment Terms
                                                    CaptionML=[ENU=Max. No. of Days till Due Date;
                                                               ESP=N§ m x. d¡as hasta fecha vencimiento];
                                                    BlankZero=Yes }
-<<<<<<< HEAD
-    { 50000;  ;campo nuevo 1       ;Code10         }
-    { 50001;  ;campo nuevo 2       ;Code10         }
-    { 50002;  ;campo nuevo 3       ;Code10         }
-=======
->>>>>>> parent of 66783cc... Paso2b
     { 7000000;;No. of Installments ;Integer       ;FieldClass=FlowField;
                                                    CalcFormula=Count(Installment WHERE (Payment Terms Code=FIELD(Code)));
                                                    CaptionML=[ENU=No. of Installments;
