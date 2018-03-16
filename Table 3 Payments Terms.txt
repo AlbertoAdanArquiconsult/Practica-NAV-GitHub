@@ -3,7 +3,7 @@ OBJECT Table 3 Payment Terms
   OBJECT-PROPERTIES
   {
     Date=16/03/18;
-    Time=10:45:17;
+    Time=10:42:56;
     Modified=Yes;
     Version List=NAVW19.00,NAVES9.00;
   }
@@ -57,7 +57,6 @@ OBJECT Table 3 Payment Terms
                                                               ESP=N§ m x. d¡as hasta fecha vencimiento];
                                                    BlankZero=Yes }
     { 50000;  ;nuevo campo 1       ;Code10         }
-    { 50001;  ;nuevo campo 2       ;Code10         }
     { 7000000;;No. of Installments ;Integer       ;FieldClass=FlowField;
                                                    CalcFormula=Count(Installment WHERE (Payment Terms Code=FIELD(Code)));
                                                    CaptionML=[ENU=No. of Installments;
